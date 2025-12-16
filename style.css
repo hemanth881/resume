@@ -239,6 +239,12 @@ body {
     display: block;
 }
 
+.job-meta {
+    font-size: 0.9rem;
+    color: #4b5563;
+    margin-bottom: 0.5rem;
+}
+
 .job-responsibilities {
     list-style-position: inside;
     color: #4b5563;
