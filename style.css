@@ -5,14 +5,18 @@
 
 :root {
     /* Color Palette */
-    --primary-color: #2563eb; /* Modern Blue */
-    --secondary-color: #3b82f6; /* Lighter Blue */
-    --text-color: #1f2937; /* Dark Grey for text */
-    --text-light: #6b7280; /* Light Grey for secondary text */
+    --primary-color: #2563eb;
+    /* Modern Blue */
+    --secondary-color: #3b82f6;
+    /* Lighter Blue */
+    --text-color: #1f2937;
+    /* Dark Grey for text */
+    --text-light: #6b7280;
+    /* Light Grey for secondary text */
     --background-bg: linear-gradient(135deg, #f3f4f6 0%, #e5e7eb 100%);
     --card-bg: #ffffff;
     --shadow-color: rgba(0, 0, 0, 0.1);
-    
+
     /* Spacing */
     --spacing-sm: 0.5rem;
     --spacing-md: 1rem;
@@ -23,7 +27,7 @@
     --radius-sm: 0.5rem;
     --radius-md: 1rem;
     --radius-full: 9999px;
-    
+
     /* Font Families */
     --font-heading: 'Outfit', sans-serif;
     --font-body: 'Inter', sans-serif;
@@ -245,6 +249,14 @@ body {
     margin-bottom: 0.5rem;
 }
 
+.contributions-title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-color);
+    margin-top: 0.75rem;
+    margin-bottom: 0.5rem;
+}
+
 .job-responsibilities {
     list-style-position: inside;
     color: #4b5563;
@@ -253,6 +265,18 @@ body {
 
 .job-responsibilities li {
     margin-bottom: 0.25rem;
+}
+
+/* Contributions Section */
+.contributions-list {
+    list-style-position: inside;
+    color: #4b5563;
+    font-size: 0.95rem;
+}
+
+.contributions-list li {
+    margin-bottom: 0.5rem;
+    line-height: 1.6;
 }
 
 /* Projects Section */
@@ -311,7 +335,7 @@ body {
     .profile-info h1 {
         font-size: 2rem;
     }
-    
+
     .section {
         padding: var(--spacing-md);
     }
